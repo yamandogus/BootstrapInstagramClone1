@@ -1,0 +1,111 @@
+::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-position: 40%;
+    background-size: 6%;
+    background: url(search-solid\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    flex: 1;
+    height: 15px;
+    
+  }
+
+  /* .navbar {
+    position: fixed;
+    width: 100%;
+    height: 54px;
+    top: 0;
+    z-index: 1000; /* Diğer elementlerin üstünde olması için z-index değeri ayarlayabilirsiniz */
+  
+ body {
+  background-color: #F5F5F5;
+    padding-top: 60px; /* Navbar yüksekliği kadar padding ekleyerek içeriği navbarın altına kaydırın */
+  }
+
+  /* .storytext {
+    display: inline-block;
+    margin-right: 10px; /* İstenilen boşluk miktarını ayarlayabilirsiniz */
+   */
+
+  .card, .header,.card footer{
+    background-color: white;
+  }
+
+  .logo{
+    margin-left: 350px;
+  }
+  .collapse{
+    margin-left: 180px;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    height: 54px;
+    width: 100%;
+    background-color: white;
+    z-index: 1000; /* Diğer elementlerin üstünde olması için yüksek bir z-index değeri ayarlayabilirsiniz */
+    
+  }
+  
+  .content {
+    padding-top: 50px; /* Navbar yüksekliği kadar padding ekleyerek içeriği navbarın altına kaydırın */
+  }
+   
+  
+  input.empty {
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      background-color: #FAFAFA;
+  }
+
+  .card-header{
+   background-color: white;
+  }
+  .card-footer{
+    background-color: white;
+  }
+  .navbar{
+
+        position:fixed; top:0px; left:0px; right:0px; 
+        height:70px; background:rgba(0.8);
+    }
+  
+  
+  .postuserfont {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+  .fa-bookmark {
+    position: relative;
+    left: 300px;
+  }
+  
+  
+  .storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 7px;
+  }
+  
+  .storytext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .rightpanellinks {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  
+  .rightpanellinks:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
